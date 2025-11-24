@@ -12,6 +12,11 @@ STRING DATA ENKRIPSI:
 U0VMQU1BVCcgS3VuY2kgbWVudWp1IHBpbnR1IGdlcmJhbmcgdGVyYWtoaXIgYWRhbGFoOiBNYXdhckl0dU1lcmFoLiBHdW5ha2FuIGt1bmNpIGluaSB1bnR1ayBtZW5nYWtzZXMgdGVrYS10ZWtpIHBlbmd1bmdrYXBhbiBpZGVudGl0YXMuIFRpbmdrYXQgQWtoaXIgTWVuYW50aSE=
 
 Setelah mendekode string di atas, Anda akan mendapatkan KATA SANDI FINAL.
-Gunakan KATA SANDI FINAL tersebut untuk menuju ke gerbang terakhir!
 
------------------------------------------------------------------------------------
+>>> GERBANG AKHIR <<<
+Gunakan KATA SANDI FINAL tersebut untuk menuju ke gerbang terakhir di sini:
+
+[LINK KE HALAMAN LOGIN-FINAL.HTML ANDA] 
+(Contoh: https://username.github.io/repo-core/login-final.html)
+
+----------------------------------------------------------------------------------
