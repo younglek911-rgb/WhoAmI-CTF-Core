@@ -13,7 +13,6 @@
             --gh-border-color: #30363d;
             --gh-link-color: #58a6ff;
         }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
             padding: 40px;
@@ -62,14 +61,10 @@
             border: 1px dashed var(--gh-border-color);
             padding: 5px;
             transition: background-color 0.3s;
+            cursor: pointer;
         }
         .hidden-clue:hover {
             background-color: #161b22; 
-        }
-        .hint-text {
-            color: #8b949e; 
-            font-size: 13px;
-            margin-top: 5px;
         }
     </style>
 </head>
@@ -79,35 +74,26 @@
     </div>
 
     <div class="main-content">
-        <h2>Selamat Datang, Penyelidik!</h2>
-        <div class="status">Status: Kunci Kota Terverifikasi.</div>
+        <h2>Selamat Datang, Detektif Siber!</h2>
+        <div class="status">Status: Akses Diberikan.</div>
 
-        <p>Anda telah berhasil masuk ke lapisan kedua. Namun, pintu berikutnya tidak terlihat. Energi rahasia telah menyembunyikan petunjuk kunci di dalam lapisan digital halaman ini.</p>
+        <p>Anda telah berhasil masuk ke lapisan kedua. Jalan menuju pengungkapan identitas tidak akan semudah itu. Petunjuk berikutnya ada di tempat yang tidak terlihat.</p>
 
-        <p><strong>Tugas Anda:</strong> Petunjuk ada di tempat yang gelap. Coba cari lokasi yang tampak kosong di halaman ini, lalu <em>sorot</em> (blok) area tersebut dengan kursor Anda. Mungkin Anda bisa melihat sesuatu yang tersembunyi.</p>
+        <p><strong>Tugas Anda:</strong> Coba bongkar 'dindingnya' atau lihat apa yang ada di baliknya! Gunakan insting dan alat forensik web terbaik Anda untuk mengungkap string yang tersembunyi. String tersebut adalah <strong>URL rahasia</strong>.</p>
 
         <p class="hidden-clue">
-            Rahasia ada di antara baris ini, tersembunyi dari pandangan:
-            <span id="clue">Langkah3%2Frahasia.txt</span>
-        </p>
-        
-        <p class="hint-text">
-            Jika Anda berhasil menemukannya, kode itu adalah URL yang tersembunyi. Anda perlu menerjemahkannya (decode) ke bahasa *link* biasa.
+            URL Rahasia Tersembunyi:
+            <span id="clue">aHR0cHM6Ly9naXRodWIuY29tL3lvdW5nbGVrOTExLXJnYi9XaG9BbUktQ1RGLUNvcmU=</span>
+            Anda harus menerjemahkan kode ini menjadi alamat yang sebenarnya.
         </p>
 
         <p>
-            Setelah Anda mendapatkan jalur yang sudah di-decode (contoh: **Langkah3/rahasia.txt**), Anda tidak perlu kembali. 
-            Modifikasi **alamat web** (URL) yang saat ini ada di bilah *browser* Anda:
+            Setelah Anda berhasil <strong>decode string</strong> di atas, Anda akan mendapatkan <strong>alamat lengkap <em>repository</em></strong> berikutnya. Buka alamat tersebut di <em>browser</em> Anda.
         </p>
-        
-        <p style="padding: 10px; border: 1px solid #30363d; background-color: #010409;">
-            Hapus `/index.html` dari akhir URL, dan ganti dengan jalur baru **Langkah3/rahasia.txt**.
-        </p>
-        
+
         <p>
-            Pastikan Anda hanya mengganti bagian akhir alamat setelah nama *repository* (yaitu setelah `/WhoAmI-CTF-Core/`). Tekan Enter untuk mengakses file tersebut!
+            Di <em>repository</em> baru tersebut, carilah file bernama <strong>`Langkah3/rahasia.txt`</strong>. File tersebut menyimpan kunci Base64 final. Semoga berhasil!
         </p>
     </div>
-
 </body>
 </html>
