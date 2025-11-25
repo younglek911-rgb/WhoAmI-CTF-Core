@@ -7,11 +7,11 @@
     <style>
         /* Variabel CSS untuk Dark Mode ala GitHub */
         :root {
-            --gh-bg-primary: #0d1117;
-            --gh-bg-secondary: #161b22;
-            --gh-text-color: #c9d1d9;
-            --gh-border-color: #30363d;
-            --gh-link-color: #58a6ff;
+            --gh-bg-primary: #0d1117; 
+            --gh-bg-secondary: #161b22; 
+            --gh-text-color: #c9d1d9; 
+            --gh-border-color: #30363d; 
+            --gh-link-color: #58a6ff; 
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
@@ -44,7 +44,7 @@
         }
         .status {
             font-size: 14px;
-            color: #8b949e;
+            color: #8b949e; 
             margin-bottom: 20px;
         }
         p {
@@ -53,13 +53,16 @@
         
         /* --- TEKA-TEKI FORENSIK (RENDAH KONTRAS) --- */
         .hidden-clue {
+            /* Perbaikan Layout */
+            display: block; 
+            padding: 15px; 
+            
+            /* Gaya Visual */
             color: var(--gh-bg-primary); 
             background-color: var(--gh-bg-primary); 
             font-size: 16px; 
             margin-top: 50px; 
-            height: 30px; 
             border: 1px dashed var(--gh-border-color);
-            padding: 5px;
             transition: background-color 0.3s;
             cursor: pointer;
         }
@@ -79,20 +82,20 @@
 
         <p>Anda telah berhasil masuk ke lapisan kedua. Jalan menuju pengungkapan identitas tidak akan semudah itu. Petunjuk berikutnya ada di tempat yang tidak terlihat.</p>
 
-        <p><strong>Tugas Anda:</strong> Coba bongkar 'dindingnya' atau lihat apa yang ada di baliknya! Gunakan insting dan alat forensik web terbaik Anda untuk mengungkap string yang tersembunyi. String tersebut adalah <strong>URL rahasia</strong>.</p>
+        <p><strong>Tugas Anda:</strong> Coba bongkar 'dindingnya' atau lihat apa yang ada di baliknya! Gunakan insting dan alat forensik web terbaik Anda untuk mengungkap string yang tersembunyi. String tersebut adalah <em>URL rahasia</em>.</p>
 
         <p class="hidden-clue">
             URL Rahasia Tersembunyi:
             <span id="clue">aHR0cHM6Ly9naXRodWIuY29tL3lvdW5nbGVrOTExLXJnYi9XaG9BbUktQ1RGLUNvcmU=</span>
-            Anda harus menerjemahkan kode ini menjadi alamat yang sebenarnya.
+            Anda harus menerjemahkan kode ini (Base64) menjadi alamat yang sebenarnya.
         </p>
 
         <p>
-            Setelah Anda berhasil <strong>decode string</strong> di atas, Anda akan mendapatkan <strong>alamat lengkap <em>repository</em></strong> berikutnya. Buka alamat tersebut di <em>browser</em> Anda.
+            Setelah Anda berhasil <strong>decode string</strong> di atas, Anda akan mendapatkan <strong>alamat lengkap repository</strong> berikutnya. Buka alamat tersebut di browser Anda.
         </p>
 
         <p>
-            Di <em>repository</em> baru tersebut, carilah file bernama <strong>`Langkah3/rahasia.txt`</strong>. File tersebut menyimpan kunci Base64 final. Semoga berhasil!
+            Di repository baru tersebut, carilah file bernama <strong>`Langkah3/rahasia.txt`</strong>. File tersebut menyimpan kunci Base64 final. Semoga berhasil!
         </p>
     </div>
 </body>
