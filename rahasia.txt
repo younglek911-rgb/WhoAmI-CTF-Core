@@ -1,0 +1,22 @@
+-----------------------------------------------------------------------------------
+|                           DATA ENKRIPSI TERSISA                                 |
+-----------------------------------------------------------------------------------
+
+Anda telah berhasil menemukan jalur tersembunyi! 
+Namun, data yang Anda temukan ini bukanlah bahasa manusia, melainkan string data yang terenkripsi.
+
+Anda memerlukan alat decoding universal untuk membuka kunci yang sesungguhnya.
+Cari decoder online untuk jenis enkripsi yang paling umum digunakan untuk transfer data.
+
+STRING DATA ENKRIPSI:
+U0VMQU1BVCcgS3VuY2kgbWVudWp1IHBpbnR1IGdlcmJhbmcgdGVyYWtoaXIgYWRhbGFoOiBNYXdhckl0dU1lcmFoLiBHdW5ha2FuIGt1bmNpIGluaSB1bnR1ayBtZW5nYWtzZXMgdGVrYS10ZWtpIHBlbmd1bmdrYXBhbiBpZGVudGl0YXMuIFRpbmdrYXQgQWtoaXIgTWVuYW50aSE=
+
+Setelah mendekode string di atas, Anda akan mendapatkan KATA SANDI FINAL.
+
+>>> GERBANG AKHIR <<<
+Gunakan KATA SANDI FINAL tersebut untuk menuju ke gerbang terakhir di sini:
+
+[LINK KE HALAMAN LOGIN-FINAL.HTML ANDA] 
+(Contoh: https://username.github.io/repo-core/login-final.html)
+
+----------------------------------------------------------------------------------
