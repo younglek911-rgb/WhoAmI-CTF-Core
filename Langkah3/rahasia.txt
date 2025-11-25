@@ -16,7 +16,6 @@ Setelah mendekode string di atas, Anda akan mendapatkan KATA SANDI FINAL.
 >>> GERBANG AKHIR <<<
 Gunakan KATA SANDI FINAL tersebut untuk menuju ke gerbang terakhir di sini:
 
-[LINK KE HALAMAN LOGIN-FINAL.HTML ANDA] 
-(Contoh: https://username.github.io/repo-core/login-final.html)
+[https://younglek911-rgb.github.io/Gerbang-Akhir-Verifikasi-Kunci-Pengungkapan/]
 
 ----------------------------------------------------------------------------------
