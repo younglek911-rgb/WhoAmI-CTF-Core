@@ -53,9 +53,12 @@
         
         /* --- TEKA-TEKI FORENSIK (RENDAH KONTRAS) --- */
         .hidden-clue {
-            /* Perbaikan Layout */
+            /* Perbaikan Layout Vertikal */
             display: block; 
             padding: 15px; 
+            
+            /* PERBAIKAN UTAMA HORIZONTAL: Memaksa kata panjang (Base64) untuk terpotong dan pindah baris */
+            word-break: break-all; 
             
             /* Gaya Visual */
             color: var(--gh-bg-primary); 
